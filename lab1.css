@@ -1,0 +1,172 @@
+a {
+  font-variant:small-caps;
+  color:#6176a0;
+  background-color: inherit;
+  text-decoration: none;
+}
+
+main a:hover {
+  color:black;
+  background-color: inherit;
+}
+
+body {
+  background-color: #dedee0;
+  font-family: sans-serif;
+}
+
+main, footer {
+  width: 90%;
+  margin: auto;
+  background-color: #dedee0;
+}
+
+table {
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  border:2px solid white;
+  background-color: white;
+}
+
+th, td {
+  border:1px;
+  padding:4px;
+  text-align:center;
+}
+
+.titlecontainer {
+  width: 275px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indextitle {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #dedee0;
+}
+
+.indextitle:hover {
+  background-color: white;
+}
+
+.indexlist {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+.iframecontainer {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 20px solid white;
+}
+
+.indextitle:hover .indexlist {
+  display: block;
+}
+
+.welcome {
+  width: 90%;
+  background-color: #dedee0;
+  border: none;
+}
+
+header {
+  text-align:center;
+  color: white;
+  background-image: url("ice-hockey-banner.jpg");
+}
+
+header p {
+  text-align:left;
+  font-style: oblique;
+  padding-left: 15px;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1 span {
+  font-size: 35px;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+footer {
+  text-align:center;
+}
+
+.gallery {
+  background-color: white;
+  border-color: transparent;
+}
+
+.gallery td {
+  border: none;
+}
+
+.gallery img {
+  display:inline-block;
+  margin: 20px;
+  width: 600px;
+  height: 500px;
+  border: 2px solid black;
+}
+
+header ul {
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 305px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-width: thin;
+  padding: 15px;
+  font-size: 20px;
+}
+
+header li a:hover {
+  background-color: gray;
+}
+
+#gallerypage {
+  background-color: gray;
+}
+
+#resourcepage {
+  background-color: gray;
+}
+
+#homepage {
+  background-color: gray;
+}
